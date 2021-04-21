@@ -1,0 +1,374 @@
+:root {
+  --baggrundsfarve: #1b1b1b;
+  --sekundaerfarve: #1e1c1c;
+  --tredjefarve: #20232c;
+  --accentfarve: #f5dd98;
+  --tekstfarve: #ffffff;
+  --tekstfarve2: #1b1b1b;
+  --headerSize: calc(2.5rem + 1.5vw);
+  --pFont: "Oswald", sans-serif;
+  --headerFont: druk, sans-serif;
+  --loadBackground: #303032;
+  --loadLight: #f8f8f8;
+  --pLineHeight: calc(1.3em + 0.5vw);
+  --headerLineHeight: calc(0.8em + 1vw);
+  --pSize: calc(0.75em + 0.4vw);
+  --headerSpacer: 110px;
+}
+/*--------NAVBAR START-----------*/
+.navbar-brand {
+  padding-left: 10px;
+}
+
+/*--------NAVBAR SLUT-----------*/
+
+/*-------- COOKIES START -----------*/
+
+.cookieText {
+  top: 58%;
+}
+
+
+.cookie-btn {
+  top: 75%;
+}
+
+/*-------- COOKIES SLUT -----------*/
+
+/*---------- FORSIDE START ---------*/
+.nyKollektion {
+  display: none;
+}
+
+.nyKollektionTabletXl {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.tabletXlOverskrift {
+  font-size: 55px;
+  font-family: druk;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+.nyKollektionKnap {
+  margin-bottom: 30px;
+}
+
+.news {
+  margin-left: 1px;
+  text-align: center;
+}
+
+.newsArtikel .artikel-img::before {
+  display: none;
+}
+
+.artikelOverskrift {
+  top: calc(100% + 10px);
+  right: 0%;
+}
+
+.artikelHeaderForside {
+  top: calc(102% - 10px);
+  right: calc(1% - 10px);
+  font-size: 23px;
+}
+
+.artikelBtn {
+  top: calc(102.5% - 10px);
+  right: calc(-22% - 10px);
+}
+
+.testto {
+  text-align: left;
+}
+
+.newsArtikel .artikel2-img::before {
+  display: none;
+}
+
+.artikelOverskrift2 {
+  top: calc(100% + 10px);
+  right: 0%;
+}
+
+.artikelHeaderForside2 {
+  top: calc(102% - 10px);
+  right: 0%;
+  font-size: 23px;
+}
+
+.artikelBtn2 {
+  top: calc(102.5% - 10px);
+  left: calc(27% - 10px);
+}
+
+.artikel2-img {
+  margin-top: 160px;
+}
+
+.newsArtikel .artikel3-img::before {
+  display: none;
+}
+
+.artikelOverskrift3 {
+  top: calc(100% + 10px);
+  right: 0%;
+}
+
+.artikelHeaderForside3 {
+  top: calc(102% - 10px);
+  right: calc(3.5% - 10px);
+  font-size: 23px;
+}
+
+.artikelBtn3 {
+  top: calc(102.5% - 10px);
+  left: calc(30% - 10px);
+}
+
+.artikel3-img {
+  margin-top: 70px;
+}
+
+.artikel4-img {
+  margin-top: 70px;
+}
+
+.artikel4-img img {
+  width: 100%;
+  position: relative;
+}
+
+.artikelOverskrift4 {
+  top: calc(104% - 10px);
+  left: calc(2% - 10px);
+}
+
+.artikelHeaderForside4 {
+  top: calc(103.6% - 10px);
+  left: calc(2% - 10px);
+  font-size: 23px;
+  justify-content: center;
+  display: flex;
+}
+
+.artikelHeaderForside4 span {
+  display: table;
+}
+
+.artikelBtn4 {
+  position: relative;
+  top: calc(105% - 10px);
+  left: calc(27% - 10px);
+}
+
+.spacerForside {
+  margin-bottom: 350px;
+}
+
+.MobileSection {
+  display: block;
+}
+.laptopSection {
+  display: none;
+}
+
+/*---------- FORSIDE SLUT ---------*/
+
+
+.footerSponsor img {
+  padding-bottom: 25px;
+}
+.footerKontakt h5{
+  padding-left: 0;
+}
+/*----------HOLDET START----------*/
+.mobile-holdet {
+  text-align: center;
+}
+
+.mobile-picture {
+  margin-bottom: 50px;
+}
+.img-title{
+  left: 50px;
+}
+
+.img-title h1{
+  font-size: calc(1.5em + 5vw);
+}
+
+.img-title h5{
+  font-size: calc(1.5em + 0.6vw);
+}
+
+/*----------HOLDET SLUT----------*/
+
+
+/*----------NYHEDER SECTION  ----------*/
+
+/*ÆNDRET*/
+.artikel-Line {
+  display: none;
+}
+
+.artikel-citattegn {
+  width: 35px;
+  height: 35px;
+}
+
+.artikel-udtalelse {
+  font-size: 22px;
+  line-height: 30px;
+  margin-left: 24px;
+}
+
+.artikelPic {
+  max-width: 77vw;
+  height: auto;
+}
+
+/*----------NYESTE NYHEDER - SEKTION  ----------*/
+
+.sidstNyt-dato {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.sidstNyt-Btn {
+  margin-bottom: 20px;
+}
+/*----------NYHEDER SLUT ----------*/
+
+/*------- BESTYRELSE START --------*/
+.card-bestyrelse {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*------- BESTYRELSE SLUT --------*/
+
+/*-------OM START--------*/
+.omOverskrift {
+  text-align: center;
+}
+
+.omPics {
+  max-height: 300px;
+  width: 100%;
+}
+
+.omLogo {
+  display: none;
+}
+
+.content {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/*-------OM SLUT--------*/
+
+/*------- KONTAKT START --------*/
+.kontakt-minititel {
+  font-family: druk;
+  margin-left: 10px;
+}
+
+.kontakt-titel {
+  font-family: druk;
+  font-size: 50px;
+  line-height: 20px;
+  margin: 26px 0 26px 10px;
+}
+
+.kontaktSection {
+  color: var(--tekstfarve);
+  padding: 50px 10px 80px 10px;
+}
+
+.kontaktSection .KontaktAdresse h3 {
+  margin-top: 60px;
+  margin-left: 1px;
+  color: var(--accentfarve);
+}
+
+.kontaktSection .KontaktAdresse p {
+  margin-left: 1px;
+}
+
+.border-center {
+  background: var(--accentfarve);
+}
+
+.kontaktSection .KontaktInformation .infoKontakt {
+  margin-left: 1px;
+  color: var(--accentfarve);
+}
+/*------- KONTAKT SLUT--------*/
+
+.someBig {
+  display: none;
+}
+
+.SoMeList i:hover {
+  opacity: 0.8;
+  color: var(--tekstfarve);
+}
+.SoMeList a:before {
+  display: none;
+}
+
+.someSmall {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-logo img {
+  width: 125px;
+  height: auto;
+}
+
+/*---------- PARTNER START --------*/
+.tabs .nav-link h4 {
+  font-size: 12px;
+}
+
+.kasse {
+  padding: 3px;
+}
+
+/*---------- PARTNER SLUT --------*/
+
+/*---------- FRIVILLIG START --------*/
+.frivilligHeaderPic {
+  height: 80vw;
+  margin-top: 30px;
+  background-position: center;
+}
+.frivilligHeaderPic h1 {
+  top: 30vw;
+}
+
+/*---------- FRIVILLIG SLUT --------*/
+
+/*--------VALUUES START-----------*/
+.valueHeaderPic {
+  margin-top: 10vh;
+}
+
+.valueHeaderPic h1 {
+  padding-bottom: 300px;
+}
+
+/*--------VALUUES SLUT-----------*/

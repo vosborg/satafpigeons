@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Meta Description -->
+  <meta name="description" content="Sat af Pigeons vi er flyvende, bedøvende og
+    er at finde alle steder. Både i Hellerup, Vesterbro og på Nørrebro." />
+
+  <title>SAT AF PIGEONS</title>
+
+  <!-- Fane blad icon -->
+  <link rel="shortcut icon" type="image/png" href="asset/img/globalPics/logoGuld.png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./asset/css/main.css" />
+  <link rel="stylesheet" href="./asset/css/mobile.css" media="screen and (min-width: 320px) and (max-width: 479px)" />
+  <link rel="stylesheet" href="./asset/css/tablet.css" media="screen and (min-width: 480px) and (max-width: 768px)" />
+  <link rel="stylesheet" href="./asset/css/tabletxl.css"
+    media="screen and (min-width: 767px) and (max-width: 1024px)" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <style>
+    @import url("https://use.typekit.net/qpd3xbn.css");
+  </style>
+  <style>
+    @import url("https://use.typekit.net/bhm0odt.css");
+  </style>
+
+  <!-- Oswald-->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap");
+  </style>
+</head>
+
+<body class="ForsideBackground casesbody">
+  <nav class="navbar fixed-top navbar-expand-lg navColor noPadding2">
+    <div class="container-fluid noPadding">
+      <a class="navbar-brand" href="index.html">
+        
+        <picture >
+          <source class="logoTop" srcset="./asset/img/globalPics/logoGuld.webp" type="image/webp">
+          <source class="logoTop" srcset="./asset/img/globalPics/logoGuld.png" type="image/png"> 
+          <img class="logoTop" src="./asset/img/globalPics/logoGuld.png" alt="Alt Text!">
+        </picture>
+      </a>
+      <div class="d-flex">
+        <a class="smallLink" href="https://shop.satafpigeons.dk/"><button type="button" class="shopbtn small me-3">WEBSHOP</button></a>
+        <button id="hamburgerSpacer" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+          <span class="burger-tekst">Luk</span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link linkHover" href="artikel.html">Nyheder</a>
+          </li> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Kampe
+              <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="https://www.dbu.dk/resultater/hold/385650_335986/kampprogram" target="_blank">Kampprogram</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="https://shop.satafpigeons.dk/" target="_blank">Køb billetter</a>
+              </li>
+            </ul>
+          </li>
+
+          
+
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pigeons
+              <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="holdet.html">Holdet</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="bestyrelse.html">Bestyrelse</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="frivillig.html">Frivillig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Om <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="om.html">Klubben</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="values.html">Mærkesager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Partners <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="partner.html">Vores partnere</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="cases.html">Cases</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linkHover" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="navbar-nav justify-content-end">
+      <li>
+        <a href="https://shop.satafpigeons.dk/"><button type="button" class="shopbtn">WEBSHOP</button></a>
+      </li>
+    </ul>
+  </nav>
+  
+    <div class="scrollTop" onclick="scrollToTop();">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+  
+    <div class="loader">
+      <div class="box2"></div>
+      <div class="box"></div>
+    </div>
+
+
+    <div class="row text-left cases-header">
+        <div class="offset-1 col-10 offset-md-2 col-md-8">
+          <h1 class="partner-overskrift">
+            SAT AF PIGEONS <br />
+            PROJECTS
+          </h1>
+          <div class="headerLine mb-3"></div>
+        </div>
+      </div>
+    
+
+
+      <section class="cases-section" id="cases">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="cases-box">
+                        <a class="cases-link" data-bs-toggle="modal" data-bs-target="#casesModal1">
+                            <div class="cases-hover">
+                                <div class="cases-hover-content">READ MORE</div>
+                            </div>
+                            <picture >
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt1.webp" type="image/webp">
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt1.png" type="image/png"> 
+                              <img class="img-fluid" src="./asset/img/casesPics/projekt1.png" alt="Pigeons futsal projekt">
+                            </picture> 
+                        </a>
+                        <div class="cases-caption">
+                            <div class="cases-caption-heading">LITAUENS PLADS</div>
+                            <p class="cases-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum modi distinctio rerum odit quae minus ad corporis vel maiores eveniet quasi exercitationem voluptate! Vel obcaecati nulla provident animi magni.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="cases-box">
+                    <a class="cases-link" data-bs-toggle="modal" data-bs-target="#casesModal2">
+                      <div class="cases-hover">
+                              <div class="cases-hover-content">READ MORE</div>
+                          </div>
+                          <picture >
+                            <source class="img-fluid" srcset="./asset/img/casesPics/projekt3.webp" type="image/webp">
+                            <source class="img-fluid" srcset="./asset/img/casesPics/projekt3.png" type="image/png"> 
+                            <img class="img-fluid" src="./asset/img/casesPics/projekt3.png" alt="Pigeons futsal projekt">
+                          </picture> 
+                      </a>
+                      <div class="cases-caption">
+                          <div class="cases-caption-heading">ADIDAS KAMPAGNE</div>
+                          <p class="cases-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum modi distinctio rerum odit quae minus ad corporis vel maiores eveniet quasi exercitationem voluptate! Vel obcaecati nulla provident animi magni.</p>
+                      </div>
+                  </div>
+              </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="cases-box">
+                      <a class="cases-link" data-bs-toggle="modal" data-bs-target="#casesModal3">
+                        <div class="cases-hover">
+                                <div class="cases-hover-content">READ MORE</div>
+                            </div>
+                            <picture >
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt2.webp" type="image/webp">
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt2.png" type="image/png"> 
+                              <img class="img-fluid" src="./asset/img/casesPics/projekt2.png" alt="Pigeons futsal projekt">
+                            </picture> 
+                        </a>
+                        <div class="cases-caption">
+                            <div class="cases-caption-heading">RED BULL TURNERING</div>
+                            <p class="cases-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum modi distinctio rerum odit quae minus ad corporis vel maiores eveniet quasi exercitationem voluptate! Vel obcaecati nulla provident animi magni.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="cases-box">
+                      <a class="cases-link" data-bs-toggle="modal" data-bs-target="#casesModal4">
+                        <div class="cases-hover">
+                                <div class="cases-hover-content">READ MORE</div>
+                            </div>
+                            <picture >
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt4.webp" type="image/webp">
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt4.png" type="image/png"> 
+                              <img class="img-fluid" src="./asset/img/casesPics/projekt4.png" alt="Pigeons futsal projekt">
+                            </picture> 
+                        </a>
+                        <div class="cases-caption">
+                            <div class="cases-caption-heading">SAT AF PIGEONS PÅ STADIUM</div>
+                            <p class="cases-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum modi distinctio rerum odit quae minus ad corporis vel maiores eveniet quasi exercitationem voluptate! Vel obcaecati nulla provident animi magni.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="cases-box">
+                      <a class="cases-link" data-bs-toggle="modal" data-bs-target="#casesModal5">
+                        <div class="cases-hover">
+                                <div class="cases-hover-content">READ MORE</div>
+                            </div>
+                            <picture >
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt5.webp" type="image/webp">
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt5.jpg" type="image/jpg"> 
+                              <img class="img-fluid" src="./asset/img/casesPics/projekt5.jpg" alt="Pigeons futsal projekt">
+                            </picture> 
+                        </a>
+                        <div class="cases-caption">
+                            <div class="cases-caption-heading">ÅBNINGSFEST</div>
+                            <p class="cases-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum modi distinctio rerum odit quae minus ad corporis vel maiores eveniet quasi exercitationem voluptate! Vel obcaecati nulla provident animi magni.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="cases-box">
+                      <a class="cases-link" data-bs-toggle="modal" data-bs-target="#casesModal6">
+                        <div class="cases-hover">
+                                <div class="cases-hover-content">READ MORE</div>
+                            </div>
+                            <picture >
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt6.webp" type="image/webp">
+                              <source class="img-fluid" srcset="./asset/img/casesPics/projekt6.png" type="image/png"> 
+                              <img class="img-fluid" src="./asset/img/casesPics/projekt6.png" alt="Pigeons futsal projekt">
+                            </picture> 
+                        </a>
+                        <div class="cases-caption">
+                            <div class="cases-caption-heading">SAT AF PIGEONS I EUROPA</div>
+                            <p class="cases-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum modi distinctio rerum odit quae minus ad corporis vel maiores eveniet quasi exercitationem voluptate! Vel obcaecati nulla provident animi magni.</p>
+                        </div>
+                    </div>
+                </div>
+      </section>
+     
+      <div class="modal fade" id="casesModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">       
+
+              <h5 class="modal-title" id="exampleModalLabel">LITAUENS PLADS EVENT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modalSection">
+            <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Challenges</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+              </p>
+              </div>
+              </div>
+              <div class="row lightRow">
+                <div class=" col-md-4">
+                  <h2>Solutions</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Results</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+            </div>
+            </div>
+            </section>
+           
+            <div class="modal-footer">
+              <button type="button" class="modalbtn " data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="casesModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">       
+
+              <h5 class="modal-title" id="exampleModalLabel">LITAUENS PLADS EVENT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modalSection">
+            <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Challenges</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+              </p>
+              </div>
+              </div>
+              <div class="row lightRow">
+                <div class=" col-md-4">
+                  <h2>Solutions</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Results</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+            </div>
+            </div>
+            </section>
+           
+            <div class="modal-footer">
+              <button type="button" class="modalbtn " data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="casesModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">       
+
+              <h5 class="modal-title" id="exampleModalLabel">LITAUENS PLADS EVENT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modalSection">
+            <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Challenges</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+              </p>
+              </div>
+              </div>
+              <div class="row lightRow">
+                <div class=" col-md-4">
+                  <h2>Solutions</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Results</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+            </div>
+            </div>
+            </section>
+           
+            <div class="modal-footer">
+              <button type="button" class="modalbtn " data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="casesModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">       
+
+              <h5 class="modal-title" id="exampleModalLabel">LITAUENS PLADS EVENT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modalSection">
+            <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Challenges</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+              </p>
+              </div>
+              </div>
+              <div class="row lightRow">
+                <div class=" col-md-4">
+                  <h2>Solutions</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Results</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+            </div>
+            </div>
+            </section>
+           
+            <div class="modal-footer">
+              <button type="button" class="modalbtn " data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="casesModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">       
+
+              <h5 class="modal-title" id="exampleModalLabel">LITAUENS PLADS EVENT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modalSection">
+            <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Challenges</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+              </p>
+              </div>
+              </div>
+              <div class="row lightRow">
+                <div class=" col-md-4">
+                  <h2>Solutions</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Results</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+            </div>
+            </div>
+            </section>
+           
+            <div class="modal-footer">
+              <button type="button" class="modalbtn " data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="casesModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">       
+
+              <h5 class="modal-title" id="exampleModalLabel">LITAUENS PLADS EVENT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modalSection">
+            <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Challenges</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+              </p>
+              </div>
+              </div>
+              <div class="row lightRow">
+                <div class=" col-md-4">
+                  <h2>Solutions</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+              <div class="row darkRow">
+                <div class=" col-md-4">
+                  <h2>Results</h2>
+                </div>
+              <div class="offset-md-2 col-md-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in animi. Aliquid, sunt facilis distinctio quis minima illum tenetur voluptatum facere tempore assumenda unde quasi necessitatibus amet. Distinctio vero sunt totam mollitia laborum autem, dolorum sed est beatae? Cumque, quibusdam cupiditate! Esse, totam. Aliquid corporis sit quas quia repellat corrupti!
+                </p>
+               </div>
+              </div>
+            </div>
+            </div>
+            </section>
+           
+            <div class="modal-footer">
+              <button type="button" class="modalbtn " data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+    <div class="cookie-container">
+      <div class="cookie-btn-center">
+        <h4 class="cookieHeader">Ja, vi bruger cookies</h4>
+        <p class="cookieText">
+          Vi bruger cookies på dette website for at give dig den bedste oplevelse på vores
+          website. For at finde ud af mere, læs vores
+          <a href="privatlivs.html">privatlivspolitik</a> & <a href="privatlivs.html">cookie politik</a>.
+        </p>
+        <button class="cookie-btn" id="RefreshPage">
+          Accepter
+        </button>
+      </div>
+    </div>
+  
+    
+   
+  
+    <div class="container-fluid">
+      <div class="row footerSponsor pt-5 pb-5">
+        <div class="offset-lg-2 col-lg-2 col-md-6 align-self-end sponsorLogo">
+          <a href="https://www.facebook.com/EnergeticX.cph/">
+            <img class="mx-auto d-block" src="./asset/img/sponsor/EnergeticLogoHvid.png" alt="" />
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-6 sponsorLogo">
+          <a href="https://www.adidas.dk/">
+            <img class="mx-auto d-block align-self-end" src="./asset/img/sponsor/adidasLogoHvid.png" alt="" />
+          </a>
+        </div>
+  
+        <div class="col-lg-2 col-md-6 align-self-end sponsorLogo">
+          <a href="https://oliolipoke.dk/">
+            <img class="mx-auto d-block" src="./asset/img/sponsor/OliOliLogoHvid.png" alt="" />
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-6 align-self-end sponsorLogo">
+          <a href="https://sportmaster.dk/">
+            <img class="mx-auto d-block" src="./asset/img/sponsor/SportmasterLogoHvid.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  
+     <footer class="mainFooter">
+      <div class="container-fluid spacerFooter">
+        <div class="row">
+          <div class="col-md-3 col-12 footer-logo">
+            <picture >
+              <source srcset="./asset/img/footer/group-34.webp" type="image/webp">
+              <source srcset="./asset/img/footer/group-34.png" type="image/png"> 
+              <img  src="./asset/img/footer/group-34.png" alt="Pigeons futsal footer baggrund">
+            </picture>  
+          </div>
+          <div class="col-12 someSmall">
+            <h5>TAG MED PÅ REJSEN</h5>
+            <div class="row SoMeList mb-1">
+              <div class="col-12 instagram">
+                <a class="SoMe" href="https://www.instagram.com/sat_af/?hl=da" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+                <a class="SoMe" href="https://www.facebook.com/SatAf16" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="SoMe" href="https://twitter.com/ddsteezin?lang=da" target="_blank"><i
+                  class="fab fa-tiktok"></i></a>
+              </div>
+            </div>
+            <div class="offset-1 col-10 footerKontakt mt-3">
+              <div class="row">
+                <div class="offset-1 col-4">
+              <h5><i class="fas fa-map-marker-alt"></i> &nbsp; Sat Af Pigeons &nbsp; <br>Pile Alle 5G, st. th. <br>2000 Frederiksberg <br>CVR: 39895684</h5>
+              <h5><i class="fas fa-mobile-alt"></i> &nbsp; 41782686</h5>
+              <h5><i class="far fa-envelope"></i> &nbsp; info@satafpigeons.dk</h5>
+                </div>
+            
+            <div class="offset-3 col-4">
+            <div id="mc_embed_signup">
+              <form
+                action="https://satafpigeons.us1.list-manage.com/subscribe/post?u=eb537b262df4e621a65f9eade&amp;id=7269e83efa"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <label for="mce-EMAIL">Tilmeld nyhedsbrev</label>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail"
+                    required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                      name="b_eb537b262df4e621a65f9eade_7269e83efa" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Tilmeld" name="subscribe" id="mc-embedded-subscribe"
+                      class="button"></div>
+                </div>
+              </form>
+            </div>
+              </div>
+          </div>
+        </div>
+      </div>
+          <div class="offset-md-0 col-md-3 offset-2 col-4">
+            <h5>SAT AF PIGEONS</h5>
+            <ul class="list-unstyled hurtigLinks">
+              <li><a href="holdet.html">Holdet</a></li>
+              <li><a href="bestyrelse.html">Bestyrelsen</a></li>
+              <li><a href="partner.html">Partners</a></li>
+              <li><a href="om.html">Om</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+          <div class="offset-md-0 offset-2 col-md-3  col-4">
+            <h5>VORES SERVICES</h5>
+            <ul class="list-unstyled hurtigLinks">
+              <li>Kampprogram</li>
+              <li>Tabeloversigt</li>
+              <li><a href="artikel.html">Nyheder</a></li>
+              <li><a href="https://shop.satafpigeons.dk/">Shop</a></li>
+              <li><a href="frivillig.html">Frivillig</a></li>
+            </ul>
+          </div>
+          <div class="col-3 someBig">
+            <h5>TAG MED PÅ REJSEN</h5>
+            <div class="row SoMeList mb-1">
+              <div class="col-12">
+                <a class="SoMe" href="https://www.instagram.com/sat_af/?hl=da" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+                <a class="SoMe" href="https://www.facebook.com/SatAf16" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="SoMe" href="https://twitter.com/ddsteezin?lang=da" target="_blank"><i
+                    class="fab fa-tiktok"></i></a>
+              </div>
+            </div>
+            <div class="col-12 footerKontakt mt-3">
+              <h5><i class="fas fa-map-marker-alt"></i> &nbsp; Sat Af Pigeons &nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pile Alle 5G, st. th. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2000 Frederiksberg <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVR: 39895684</h5>
+              <h5><i class="fas fa-mobile-alt"></i> &nbsp; +4560187989 </h5>
+              <h5><i class="far fa-envelope"></i> &nbsp; info@satafpigeons.dk</h5>
+              <!-- Begin Mailchimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+              <style type="text/css">
+                #mc_embed_signup {
+                  background: transparent;
+                  clear: left;
+                  font: 14px Oswald, sans-serif;
+                }
+                #mc_embed_signup form{
+                  padding: 0px 0 10px 3%;
+                }
+                #mc_embed_signup input.email{
+                  min-width: 90px;
+                  min-height: 26px;
+                  font-size:12px;
+                }
+              
+                #mc_embed_signup .button {
+                  clear: both;
+                  z-index: 3;
+                  font-size: 16px;
+                  letter-spacing: 1px;
+                  text-decoration: none;
+                  background-color: transparent;
+                  color: var(--tekstfarve);
+                  border: 2px solid var(--tekstfarve);
+                  cursor: pointer;
+                  font-family: acumin pro, sans-serif;
+                  transition: 0.3s ease-in-out;
+                }
+                #mc_embed_signup .button:hover {
+                  background-color: #ffffff;
+                  color: #1b1b1b;
+                }
+                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+              </style>
+              <div id="mc_embed_signup">
+                <form
+                  action="https://satafpigeons.us1.list-manage.com/subscribe/post?u=eb537b262df4e621a65f9eade&amp;id=7269e83efa"
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                  target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Tilmeld nyhedsbrev</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail"
+                      required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_eb537b262df4e621a65f9eade_7269e83efa" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Tilmeld" name="subscribe" id="mc-embedded-subscribe"
+                        class="button"></div>
+                  </div>
+                </form>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="credits text-center">
+        <p class="creditstext">
+          &copy; 2021 SAT AF PIGEONS | All Rights Reserved | <a href="privatlivs.html">Private Policy</a>
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="./asset/js/main.js"></script>
+    <script src="./asset/js/scrollBtn.js"></script>
+    <script src="./asset/js/jquery-3.5.1.min.js"></script>
+    <script src="./asset/js/rellax.min.js"></script>
+    <script src="./asset/js/navbar.js"></script>
+    <script src="./asset/js/preloader.js"></script>
+    <script src="./asset/js/scrolldown.js"></script>
+    <script src="./asset/js/cookies.js"></script>
+    <script>
+      // Center all the things!
+      var rellax = new Rellax(".rellax", {
+        center: true,
+      });
+    </script>
+  </body>
+  
+  </html>

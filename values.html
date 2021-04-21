@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Meta Description -->
+  <meta name="description" content="Sat af Pigeons vi er flyvende, bedøvende og
+    er at finde alle steder. Både i Hellerup, Vesterbro og på Nørrebro." />
+
+  <title>De fire værdier</title>
+
+  <!-- Fane blad icon -->
+  <link rel="shortcut icon" type="image/png" href="asset/img/globalPics/logoGuld.png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./asset/css/main.css" />
+  <link rel="stylesheet" href="./asset/css/mobile.css" media="screen and (min-width: 320px) and (max-width: 479px)" />
+  <link rel="stylesheet" href="./asset/css/tablet.css" media="screen and (min-width: 480px) and (max-width: 768px)" />
+  <link rel="stylesheet" href="./asset/css/tabletxl.css"
+    media="screen and (min-width: 767px) and (max-width: 1024px)" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <style>
+    @import url("https://use.typekit.net/qpd3xbn.css");
+  </style>
+  <style>
+    @import url("https://use.typekit.net/bhm0odt.css");
+  </style>
+
+  <!-- Oswald-->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap");
+  </style>
+</head>
+
+<body class="ForsideBackground">
+  <nav class="navbar fixed-top navbar-expand-lg navColor noPadding2">
+    <div class="container-fluid noPadding">
+      <a class="navbar-brand" href="index.html">
+        
+        <picture >
+          <source class="logoTop" srcset="./asset/img/globalPics/logoGuld.webp" type="image/webp">
+          <source class="logoTop" srcset="./asset/img/globalPics/logoGuld.png" type="image/png"> 
+          <img class="logoTop" src="./asset/img/globalPics/logoGuld.png" alt="Alt Text!">
+        </picture>
+      </a>
+      <div class="d-flex">
+        <a class="smallLink" href="https://shop.satafpigeons.dk/"><button type="button" class="shopbtn small me-3">WEBSHOP</button></a>
+        <button id="hamburgerSpacer" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+          <span class="burger-tekst">Luk</span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link linkHover" href="artikel.html">Nyheder</a>
+          </li> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Kampe
+              <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="https://www.dbu.dk/resultater/hold/385650_335986/kampprogram" target="_blank">Kampprogram</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="https://shop.satafpigeons.dk/" target="_blank">Køb billetter</a>
+              </li>
+            </ul>
+          </li>
+
+          
+
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pigeons
+              <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="holdet.html">Holdet</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="bestyrelse.html">Bestyrelse</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="frivillig.html">Frivillig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Om <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="om.html">Klubben</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="values.html">Mærkesager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link linkHover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Partners <span style="color: #f5dd98; font-weight: bold">+</span>
+            </a>
+            <ul class="dropdown-menu DDeffect growDown" aria-labelledby="navbarDropdownMenuLink">
+              <li class="DDHover">
+                <a class="dropdown-item" href="partner.html">Vores partnere</a>
+              </li>
+              <li class="DDHover">
+                <a class="dropdown-item" href="cases.html">Cases</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linkHover" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="navbar-nav justify-content-end">
+      <li>
+        <a href="https://shop.satafpigeons.dk/"><button type="button" class="shopbtn">WEBSHOP</button></a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="scrollTop" onclick="scrollToTop();">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <div class="loader">
+    <div class="box2"></div>
+    <div class="box"></div>
+  </div>
+
+  <section class="valueHeaderPic">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <h1 class="rellax" data-rellax-speed="-4">HVAD VIL PIGEONS?</h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="valueOverskrift text-center">
+    <h1>Klubbens Mærkesager:</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-1 col-md-5">
+        <h5 class="valueNumber">01</h5>
+        <h2 class="valueHeader">Mangfoldighed - vi viser det! </h2>
+        <p class="valueTekst">
+          Vi tror på sport og bevægelse til forståelse af kulturelle forskelle. Vi hylder mangfoldigheden og forenes omkring det der binder os alle sammen: vores kærlighed til streetball og gadens fællesskab. Vi ser ikke behov for at tale om mangfoldighed. Vi vil meget hellere vise det på og udenfor banen!
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <h5 class="valueNumber">02</h5>
+        <h2 class="valueHeader">Kom op af sofaen og bevæg dig</h2>
+        <p class="valueTekst">
+          Smartphones, videomøder og samvær over nettet er en integreret del af alles hverdag. Vi drømmer om de gamle dage på blokken, hvor socialt samvær var fysisk med en bold og hudafskrabninger til følge. Vi ønsker at få de unge mere væk fra deres virtuelle liv og ud i den virkelige verden ved hjælp af bevægelse og sunde, fysiske fællesskaber. Dette er vi overbevist om både vil sikre bedre social og fysisk sundhed. 
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="offset-md-1 col-md-5">
+        <h5 class="valueNumber">03</h5>
+        <h2 class="valueHeader">Teknisk udvikling - vi savner den nye Laudrup!</h2>
+        <p class="valueTekst">
+          Fodbold skal være storslået og seværdigt. Det skal være ’joga bonito’ og ikke ’kick and rush’. Og vigtigst af alt… Det skal være underholdende. Dette er én af Sat Af Pigeons’ største mærkesager, og som vores klubnavn antyder, sætter vi fokus på at løfte det tekniske spil. Vilde driblinger skal værdsættes og ikke lægges en dæmper på. Dette er en væsentlig målsætning, hvis dansk fodbold skal gøres mere publikumsvenlig, og ungdommens interessen for sporten skal sikres. Vi vil gerne være med til at sikre flere typer som Sisto, Krohn-Dehli, M. Zidan og Laudrup i dansk fodbold. 
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <h5 class="valueNumber">04</h5>
+        <h2 class="valueHeader">Mental sundhed</h2>
+        <p class="valueTekst">
+          Unges mentale sundhed er presset, og behovet for at være social er større end nogensinde. I Sat Af Pigeons sætter vi fokus på mental sundhed og går op i vores spillers velbefindende, der ofte undertrykkes i en macho fodboldverden. Følelser og mentale udfordringer skal ikke være et tabu, men kunne italesættes sammen med dine holdkammerater. Vi ønsker en åben og tolerant klub, der kan være frontrunner i kampen for bedre mental trivsel både blandt unge og i sportens verden. Pigeons vil huskes som klubben, der udtænkte alternative måder at støtte op om mental sundhed. 
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="offset-md-1 col-md-5">
+        <h5 class="valueNumber">05</h5>
+        <h2 class="valueHeader">Bæredygtighed - for en bedre fremtid</h2>
+        <p class="valueTekst">
+          Vi har alle et ansvar for at gøre kloden mere bæredygtig og skabe en bedre verden for den næste generation. I Sat Af Pigeons ønsker vi at bidrage til den grønne omstilling efter bedste evne. Derfor anvender Pigeons så vidt muligt vores partner adidas’ ‘Parley’ kollektion (lavet af genanvendt plastik fra havet), og holdets overskydende tøj og produkter sendes til vores samarbejdspartner - velgørenhedsorganisation ‘Dear Football’. Dette er Pigeons første træk af mange i kampen for større bæredygtighed, og i fremtiden vil holdet gennemføre flere initiativer, der sætter fokus på klimaet. 
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <h5 class="valueNumber">06</h5>
+        <h2 class="valueHeader">Edgy og classy</h2>
+        <p class="valueTekst">
+          ’Sat Af Pigeons’ går op i, hvordan vi og vores brand ser ud - både på og udenfor banen. Vi vil være med til at skabe de nyeste trends og skubbe rammerne for urban culture. Pigeons merchandise og brand skal være at finde på gader og stræder over hele Danmark på niveau med andre store internationale sportsbrands.<br><br>
+
+          Men ’Classy people bedømmes ikke alene på deres stil og udseende. Deres karisma og klasse afspejler sig også i deres personlighed og væremåde blandt andre mennesker. Vores kultur bygger således på stil og klasse i alt fra vores visuelle identitet til måden hvorpå, at vi omgås hinanden og andre med stor respekt. Vi værdsætter de skæve personligheder og lever efter devisen om at nurse fremfor at shame. Det er ægte klasse!
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row footerSponsor pt-5 pb-5">
+      <div class="offset-lg-2 col-lg-2 col-md-6 align-self-end sponsorLogo">
+        <a href="https://www.facebook.com/EnergeticX.cph/">
+          <img class="mx-auto d-block" src="./asset/img/sponsor/EnergeticLogoHvid.png" alt="" />
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-6 sponsorLogo">
+        <a href="https://www.adidas.dk/">
+          <img class="mx-auto d-block align-self-end" src="./asset/img/sponsor/adidasLogoHvid.png" alt="" />
+        </a>
+      </div>
+
+      <div class="col-lg-2 col-md-6 align-self-end sponsorLogo">
+        <a href="https://oliolipoke.dk/">
+          <img class="mx-auto d-block" src="./asset/img/sponsor/OliOliLogoHvid.png" alt="" />
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-6 align-self-end sponsorLogo">
+        <a href="https://sportmaster.dk/">
+          <img class="mx-auto d-block" src="./asset/img/sponsor/SportmasterLogoHvid.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+ <footer class="mainFooter">
+    <div class="container-fluid spacerFooter">
+      <div class="row">
+        <div class="col-md-3 col-12 footer-logo">
+          <picture >
+            <source srcset="./asset/img/footer/group-34.webp" type="image/webp">
+            <source srcset="./asset/img/footer/group-34.png" type="image/png"> 
+            <img  src="./asset/img/footer/group-34.png" alt="Pigeons futsal footer baggrund">
+          </picture>  
+        </div>
+        <div class="col-12 someSmall">
+          <h5>TAG MED PÅ REJSEN</h5>
+          <div class="row SoMeList mb-1">
+            <div class="col-12 instagram">
+              <a class="SoMe" href="https://www.instagram.com/sat_af/?hl=da" target="_blank"><i
+                  class="fab fa-instagram"></i></a>
+              <a class="SoMe" href="https://www.facebook.com/SatAf16" target="_blank"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a class="SoMe" href="https://twitter.com/ddsteezin?lang=da" target="_blank"><i
+                class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="offset-1 col-10 footerKontakt mt-3">
+          <div class="row">
+              <div class="offset-1 col-4">
+            <h5><i class="fas fa-map-marker-alt"></i> &nbsp; Sat Af Pigeons &nbsp; <br>Pile Alle 5G, st. th. <br>2000 Frederiksberg <br>CVR: 39895684</h5>
+            <h5><i class="fas fa-mobile-alt"></i> &nbsp; 41782686</h5>
+            <h5><i class="far fa-envelope"></i> &nbsp; info@satafpigeons.dk</h5>
+              </div>
+          
+          <div class="offset-3 col-4">
+          <div id="mc_embed_signup">
+            <form
+              action="https://satafpigeons.us1.list-manage.com/subscribe/post?u=eb537b262df4e621a65f9eade&amp;id=7269e83efa"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Tilmeld nyhedsbrev</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail"
+                  required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                    name="b_eb537b262df4e621a65f9eade_7269e83efa" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Tilmeld" name="subscribe" id="mc-embedded-subscribe"
+                    class="button"></div>
+              </div>
+            </form>
+          </div>
+            </div>
+        </div>
+      </div>
+    </div>
+        <div class="offset-md-0 col-md-3 offset-2 col-4">
+          <h5>SAT AF PIGEONS</h5>
+          <ul class="list-unstyled hurtigLinks">
+            <li><a href="holdet.html">Holdet</a></li>
+            <li><a href="bestyrelse.html">Bestyrelsen</a></li>
+            <li><a href="partner.html">Partners</a></li>
+            <li><a href="om.html">Om</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="offset-md-0 offset-2 col-md-3  col-4">
+          <h5>VORES SERVICES</h5>
+          <ul class="list-unstyled hurtigLinks">
+            <li>Kampprogram</li>
+            <li>Tabeloversigt</li>
+            <li><a href="artikel.html">Nyheder</a></li>
+            <li><a href="https://shop.satafpigeons.dk/">Shop</a></li>
+            <li><a href="frivillig.html">Frivillig</a></li>
+          </ul>
+        </div>
+        <div class="col-3 someBig">
+          <h5>TAG MED PÅ REJSEN</h5>
+          <div class="row SoMeList mb-1">
+            <div class="col-12">
+              <a class="SoMe" href="https://www.instagram.com/sat_af/?hl=da" target="_blank"><i
+                  class="fab fa-instagram"></i></a>
+              <a class="SoMe" href="https://www.facebook.com/SatAf16" target="_blank"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a class="SoMe" href="https://twitter.com/ddsteezin?lang=da" target="_blank"><i
+                  class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="col-12 footerKontakt mt-3">
+            <h5><i class="fas fa-map-marker-alt"></i> &nbsp; Sat Af Pigeons &nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pile Alle 5G, st. th. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2000 Frederiksberg <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVR: 39895684</h5>
+            <h5><i class="fas fa-mobile-alt"></i> &nbsp; +4560187989 </h5>
+            <h5><i class="far fa-envelope"></i> &nbsp; info@satafpigeons.dk</h5>
+            <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+              #mc_embed_signup {
+                background: transparent;
+                clear: left;
+                font: 14px Oswald, sans-serif;
+              }
+              #mc_embed_signup form{
+                padding: 0px 0 10px 3%;
+              }
+              #mc_embed_signup input.email{
+                min-width: 90px;
+                min-height: 26px;
+                font-size:12px;
+              }
+            
+              #mc_embed_signup .button {
+                clear: both;
+                z-index: 3;
+                font-size: 16px;
+                letter-spacing: 1px;
+                text-decoration: none;
+                background-color: transparent;
+                color: var(--tekstfarve);
+                border: 2px solid var(--tekstfarve);
+                cursor: pointer;
+                font-family: acumin pro, sans-serif;
+                transition: 0.3s ease-in-out;
+              }
+              #mc_embed_signup .button:hover {
+                background-color: #ffffff;
+                color: #1b1b1b;
+              }
+              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+              <form
+                action="https://satafpigeons.us1.list-manage.com/subscribe/post?u=eb537b262df4e621a65f9eade&amp;id=7269e83efa"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <label for="mce-EMAIL">Tilmeld nyhedsbrev</label>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail"
+                    required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                      name="b_eb537b262df4e621a65f9eade_7269e83efa" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Tilmeld" name="subscribe" id="mc-embedded-subscribe"
+                      class="button"></div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="credits text-center">
+      <p class="creditstext">
+        &copy; 2021 SAT AF PIGEONS | All Rights Reserved | <a href="privatlivs.html">Private Policy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="./asset/js/main.js"></script>
+  <script src="./asset/js/scrollBtn.js"></script>
+  <script src="./asset/js/jquery-3.5.1.min.js"></script>
+  <script src="./asset/js/rellax.min.js"></script>
+  <script src="./asset/js/navbar.js"></script>
+  <script src="./asset/js/preloader.js"></script>
+
+  <script>
+    // Center all the things!
+    var rellax = new Rellax(".rellax", {
+      center: true,
+    });
+  </script>
+</body>
+
+</html>
